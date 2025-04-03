@@ -46,6 +46,11 @@ a:hover{
     transition: ease-in-out;
     transition-duration: 1s;
 }
+/* main starts here  */
+main{
+    padding: 10px;
+    margin: 10px;
+}
 .first{
     display: flex;
     justify-content: center;
@@ -53,5 +58,35 @@ a:hover{
     flex-direction: column;
 }
 span{
-    font-weight: 600px;
+    font-weight: 600;
+
+}
+.content{
+    font-size: 18px;
+    font-weight: 500;
+}
+button{
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+button:hover{
+    color: white;
+    background-color: gold;
+    border-radius: 20px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    flex-wrap: wrap;
+}
+.download{
+    background-color: beige;
+    padding: 20px;
+    margin: 10px
 }
