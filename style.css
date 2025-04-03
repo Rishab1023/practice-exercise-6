@@ -8,9 +8,8 @@ header{
     display: flex;
     align-items: center;
     background-color: rgb(228, 222, 222);
-    display: grid;
-    grid-template-columns: [logo]1fr [nav]1fr ;
-    
+    align-items: center;
+    justify-content: space-around;
 }
 .logo{
     display: flex;
@@ -22,6 +21,14 @@ nav{
     justify-content: flex-end;
     margin: 15px;
     background-color: transparent;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    display: flex;
+    align-items: center;
 }
 .nav{
     text-decoration: none;
@@ -39,37 +46,12 @@ a:hover{
     transition: ease-in-out;
     transition-duration: 1s;
 }
-
-main{
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: auto;
-    padding: 10px;
-    margin: 10px;
-}
-.box{
-    margin: 10px;
-    padding: 10px;
-    background-color: bisque;
+.first{
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-h1{
-    display: flex;
-    justify-content: center;
+span{
+    font-weight: 600px;
 }
-.download{
-    display: flex;
-    justify-content: center;
-}
-
-.link{
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px;
-    font-weight: 600;
-    color: aliceblue;
-    background-color: blue;
-    border-radius: 24px;
-}
-.link:hover{}
