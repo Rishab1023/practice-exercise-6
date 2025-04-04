@@ -83,9 +83,10 @@ button:hover{
 }
 .second{
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .download{
     background-color: beige;
